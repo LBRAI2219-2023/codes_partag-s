@@ -1,2 +1,2 @@
-# codes_partag-s
+# codes_partages
 Partage de code d'intérêt commun
