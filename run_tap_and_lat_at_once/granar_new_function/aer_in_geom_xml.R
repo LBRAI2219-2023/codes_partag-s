@@ -1,6 +1,6 @@
 
 
-aer_in_geom_xml_lat <- function(sim, path = "./MECHA/Projects/GRANAR/in/Maize_Geometry_lat.xml"){
+aer_in_geom_xml <- function(sim, path = "./MECHA/Projects/GRANAR/in/Maize_Geometry.xml"){
   
   require(xml2)
   if (is.null(path)) {

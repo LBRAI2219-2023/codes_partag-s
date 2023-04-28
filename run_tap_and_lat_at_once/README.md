@@ -6,7 +6,9 @@ Ci-dessous une explication plus précise pour chaque modèle.
 
 # GRANAR
 
-J'ai dupliqué la fonction *aer_in_geom_xml.R* en *aer_in_geom_xml_lat.R*. La seule différence étant le fichier ciblé à l'intérieur de la fonction. Notez que vous devez créér un fichier *Maize_Geometry_lat.xml* et un fichier *Maize_Geometry_lat_aer.xml* dans 'MECHA/Projects/Granar/in/' en précisant dans ce fichier le value pour current_root tandis que *Maize_Geometry.xml* et *Maize_Geometry_aer.xml* précisent current_root_tap. Félicitations, vous pouvez maintenant run lat et tap sans devoir modifier à la main tous les noms de fichiers. Dans le fichier .rmd de granar, cette fonction est appliquée à la ligne 100-106. Notez aussi que vous devez lancer une simulation différente pour chaque anatomie (tap et lat : sim et sim1). (en ce qui concerne la fonction ApoSymp(), modifiez le path directement dans la fonction .R pour qu'elle fonctionne).
+J'ai dupliqué la fonction *aer_in_geom_xml.R* en *aer_in_geom_xml_lat.R*. La seule différence étant le fichier ciblé à l'intérieur de la fonction. Notez que vous devez créér un fichier *Maize_Geometry_lat.xml* et un fichier *Maize_Geometry_lat_aer.xml* dans 'MECHA/Projects/Granar/in/' en précisant dans ce fichier le value pour current_root tandis que *Maize_Geometry.xml* et *Maize_Geometry_aer.xml* précisent current_root_tap. Félicitations, vous pouvez maintenant run lat et tap sans devoir modifier à la main tous les noms de fichiers. Dans le fichier .rmd de granar, cette fonction est appliquée à la ligne 100-106. Notez aussi que vous devez lancer une simulation différente pour chaque anatomie (tap et lat : sim et sim1).
+
+Attention !! Je considère mes racines avec une proportion d'aerenchyme = 0, je me suis permis de modifier la fonction *aer_in_geom_xml.R* et *aer_in_geom_xml_lat.R* en enlevant : 'paste('aerenchyme id', range, '')'. Ceci permet une suppression d'aerenchyme et fait en sorte que Mecha fonctionne convenablement.
 
 # MECHA
 
