@@ -13,6 +13,7 @@ C'est peut être plus facile de comprendre avec un shéma:)  ![](./img/model_int
 
 ### 1.1 Description des équations
 On fait comme hypothèse que $\theta_{z=0}$ est constant et fixé à -15 000 hPa et que le contenu en eau évolue linéairement entre $z=0$ et $z=-40$, permettant de calculer une moyenne pour $\theta$. 
+
 $$
 \begin{split}
 \sum S_i &= S_1 + S_2 +S_3 \quad \text{avec} \quad S_1 = \frac{\theta_1+\theta_2}{2}40 \quad \text{et} \quad S_2 = S_3 \\
@@ -20,5 +21,6 @@ $$
 &= \frac{\theta_1+\theta_2}{2}40 + 2(\theta_2 40) \\
 \end{split}
 $$
+
 Où $\sum S_i$ [cm] est le stock d'eau total du sol et 40 [cm] est la profondeur d'un profil.
 
