@@ -19,6 +19,7 @@ S &= \sum S_i = S_1+S_2+S_3 \\
 &= \frac{(\theta_2+\theta_1)40}{2} + \frac{(\theta_2+\theta_3)40}{2} + \frac{(\theta_3+\theta_4)40}{2}
 \end{split}
 $$
+
 où $\theta_2=\theta_3=\theta_4$ et $\sum S_i$ est le stock d'eau total du sol [cm] et 40 est la profondeur d'un profil [cm]. Il suffit alors de résoudre pour $\theta$ pour déterminer les nouvelles valeurs à metter dans `soil.csv`.
 
 ## 2. Modèle de van Genuchten
